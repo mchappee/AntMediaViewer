@@ -1,0 +1,657 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34BF98B1279F26EC0006E5DC /* Layer2-1280x768.png in Resources */ = {isa = PBXBuildFile; fileRef = 34BF98AC279F26EC0006E5DC /* Layer2-1280x768.png */; };
+		34BF98B2279F26EC0006E5DC /* Layer1-400x240.png in Resources */ = {isa = PBXBuildFile; fileRef = 34BF98AD279F26EC0006E5DC /* Layer1-400x240.png */; };
+		34BF98B3279F26EC0006E5DC /* Layer2-400x240.png in Resources */ = {isa = PBXBuildFile; fileRef = 34BF98AE279F26EC0006E5DC /* Layer2-400x240.png */; };
+		34BF98B4279F26EC0006E5DC /* AntMediaViewerIcon1280x768.xcf in Resources */ = {isa = PBXBuildFile; fileRef = 34BF98AF279F26EC0006E5DC /* AntMediaViewerIcon1280x768.xcf */; };
+		34BF98B5279F26EC0006E5DC /* Layer1-1280x768.png in Resources */ = {isa = PBXBuildFile; fileRef = 34BF98B0279F26EC0006E5DC /* Layer1-1280x768.png */; };
+		34BF98B8279F38F70006E5DC /* topshelf.png in Resources */ = {isa = PBXBuildFile; fileRef = 34BF98B6279F38F70006E5DC /* topshelf.png */; };
+		34BF98B9279F38F70006E5DC /* topshelfwide.png in Resources */ = {isa = PBXBuildFile; fileRef = 34BF98B7279F38F70006E5DC /* topshelfwide.png */; };
+		34BF98BC279F391C0006E5DC /* Layer1-800x480.png in Resources */ = {isa = PBXBuildFile; fileRef = 34BF98BA279F391C0006E5DC /* Layer1-800x480.png */; };
+		34BF98BD279F391C0006E5DC /* Layer2-800x480.png in Resources */ = {isa = PBXBuildFile; fileRef = 34BF98BB279F391C0006E5DC /* Layer2-800x480.png */; };
+		34FF3A8F279D84460020A937 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FF3A8E279D84460020A937 /* AppDelegate.m */; };
+		34FF3A97279D84470020A937 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34FF3A96279D84470020A937 /* Assets.xcassets */; };
+		34FF3A9C279D84470020A937 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FF3A9B279D84470020A937 /* main.m */; };
+		34FF3AA6279D84470020A937 /* Ant_Media_ViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FF3AA5279D84470020A937 /* Ant_Media_ViewerTests.m */; };
+		34FF3AB0279D84470020A937 /* Ant_Media_ViewerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FF3AAF279D84470020A937 /* Ant_Media_ViewerUITests.m */; };
+		34FF3AB2279D84470020A937 /* Ant_Media_ViewerUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FF3AB1279D84470020A937 /* Ant_Media_ViewerUITestsLaunchTests.m */; };
+		34FF3ACA279D84E90020A937 /* chappeeacresicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 34FF3ABE279D84E90020A937 /* chappeeacresicon.png */; };
+		34FF3ACB279D84E90020A937 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FF3ABF279D84E90020A937 /* ViewController.m */; };
+		34FF3ACC279D84E90020A937 /* ant.png in Resources */ = {isa = PBXBuildFile; fileRef = 34FF3AC1279D84E90020A937 /* ant.png */; };
+		34FF3ACD279D84E90020A937 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 34FF3AC2279D84E90020A937 /* settings.png */; };
+		34FF3ACE279D84E90020A937 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34FF3AC3279D84E90020A937 /* Main.storyboard */; };
+		34FF3ACF279D84E90020A937 /* StreamCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FF3AC5279D84E90020A937 /* StreamCell.m */; };
+		34FF3AD0279D84E90020A937 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34FF3AC7279D84E90020A937 /* LaunchScreen.storyboard */; };
+		34FF3AD1279D84E90020A937 /* appmonsterlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 34FF3AC8279D84E90020A937 /* appmonsterlogo.png */; };
+		34FF3AD2279D84E90020A937 /* SettingsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FF3AC9279D84E90020A937 /* SettingsVC.m */; };
+		34FF3AD6279D854F0020A937 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FF3AD4279D854F0020A937 /* AVFoundation.framework */; };
+		34FF3AD7279D854F0020A937 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FF3AD5279D854F0020A937 /* AVKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34FF3AA2279D84470020A937 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34FF3A82279D84460020A937 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34FF3A89279D84460020A937;
+			remoteInfo = "Ant Media Viewer";
+		};
+		34FF3AAC279D84470020A937 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34FF3A82279D84460020A937 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34FF3A89279D84460020A937;
+			remoteInfo = "Ant Media Viewer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34BF98AC279F26EC0006E5DC /* Layer2-1280x768.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Layer2-1280x768.png"; sourceTree = "<group>"; };
+		34BF98AD279F26EC0006E5DC /* Layer1-400x240.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Layer1-400x240.png"; sourceTree = "<group>"; };
+		34BF98AE279F26EC0006E5DC /* Layer2-400x240.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Layer2-400x240.png"; sourceTree = "<group>"; };
+		34BF98AF279F26EC0006E5DC /* AntMediaViewerIcon1280x768.xcf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AntMediaViewerIcon1280x768.xcf; sourceTree = "<group>"; };
+		34BF98B0279F26EC0006E5DC /* Layer1-1280x768.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Layer1-1280x768.png"; sourceTree = "<group>"; };
+		34BF98B6279F38F70006E5DC /* topshelf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = topshelf.png; sourceTree = "<group>"; };
+		34BF98B7279F38F70006E5DC /* topshelfwide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = topshelfwide.png; sourceTree = "<group>"; };
+		34BF98BA279F391C0006E5DC /* Layer1-800x480.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Layer1-800x480.png"; sourceTree = "<group>"; };
+		34BF98BB279F391C0006E5DC /* Layer2-800x480.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Layer2-800x480.png"; sourceTree = "<group>"; };
+		34FF3A8A279D84460020A937 /* Ant Media Viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ant Media Viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34FF3A8D279D84460020A937 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		34FF3A8E279D84460020A937 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		34FF3A96279D84470020A937 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34FF3A9B279D84470020A937 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		34FF3AA1279D84470020A937 /* Ant Media ViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ant Media ViewerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34FF3AA5279D84470020A937 /* Ant_Media_ViewerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ant_Media_ViewerTests.m; sourceTree = "<group>"; };
+		34FF3AAB279D84470020A937 /* Ant Media ViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ant Media ViewerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34FF3AAF279D84470020A937 /* Ant_Media_ViewerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ant_Media_ViewerUITests.m; sourceTree = "<group>"; };
+		34FF3AB1279D84470020A937 /* Ant_Media_ViewerUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ant_Media_ViewerUITestsLaunchTests.m; sourceTree = "<group>"; };
+		34FF3ABE279D84E90020A937 /* chappeeacresicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chappeeacresicon.png; sourceTree = "<group>"; };
+		34FF3ABF279D84E90020A937 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../../AntMedia/AntMediaViewer/ViewController.m; sourceTree = "<group>"; };
+		34FF3AC0279D84E90020A937 /* StreamCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StreamCell.h; sourceTree = "<group>"; };
+		34FF3AC1279D84E90020A937 /* ant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ant.png; sourceTree = "<group>"; };
+		34FF3AC2279D84E90020A937 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		34FF3AC3279D84E90020A937 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		34FF3AC4279D84E90020A937 /* SettingsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsVC.h; sourceTree = "<group>"; };
+		34FF3AC5279D84E90020A937 /* StreamCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StreamCell.m; sourceTree = "<group>"; };
+		34FF3AC6279D84E90020A937 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../../AntMedia/AntMediaViewer/ViewController.h; sourceTree = "<group>"; };
+		34FF3AC7279D84E90020A937 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34FF3AC8279D84E90020A937 /* appmonsterlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appmonsterlogo.png; sourceTree = "<group>"; };
+		34FF3AC9279D84E90020A937 /* SettingsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsVC.m; sourceTree = "<group>"; };
+		34FF3AD4279D854F0020A937 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		34FF3AD5279D854F0020A937 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		34FF3AD8279D856F0020A937 /* Ant-Media-Viewer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Ant-Media-Viewer-Info.plist"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34FF3A87279D84460020A937 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34FF3AD7279D854F0020A937 /* AVKit.framework in Frameworks */,
+				34FF3AD6279D854F0020A937 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34FF3A9E279D84470020A937 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34FF3AA8279D84470020A937 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34FF3A81279D84460020A937 = {
+			isa = PBXGroup;
+			children = (
+				34FF3A8C279D84460020A937 /* Ant Media Viewer */,
+				34FF3AA4279D84470020A937 /* Ant Media ViewerTests */,
+				34FF3AAE279D84470020A937 /* Ant Media ViewerUITests */,
+				34FF3A8B279D84460020A937 /* Products */,
+				34FF3AD3279D854F0020A937 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		34FF3A8B279D84460020A937 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34FF3A8A279D84460020A937 /* Ant Media Viewer.app */,
+				34FF3AA1279D84470020A937 /* Ant Media ViewerTests.xctest */,
+				34FF3AAB279D84470020A937 /* Ant Media ViewerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34FF3A8C279D84460020A937 /* Ant Media Viewer */ = {
+			isa = PBXGroup;
+			children = (
+				34FF3AD8279D856F0020A937 /* Ant-Media-Viewer-Info.plist */,
+				34FF3A8D279D84460020A937 /* AppDelegate.h */,
+				34FF3A8E279D84460020A937 /* AppDelegate.m */,
+				34FF3AC7279D84E90020A937 /* LaunchScreen.storyboard */,
+				34FF3AC3279D84E90020A937 /* Main.storyboard */,
+				34FF3AC2279D84E90020A937 /* settings.png */,
+				34FF3AC4279D84E90020A937 /* SettingsVC.h */,
+				34FF3AC9279D84E90020A937 /* SettingsVC.m */,
+				34FF3AC0279D84E90020A937 /* StreamCell.h */,
+				34FF3AC5279D84E90020A937 /* StreamCell.m */,
+				34FF3AC6279D84E90020A937 /* ViewController.h */,
+				34FF3ABF279D84E90020A937 /* ViewController.m */,
+				34FF3AC1279D84E90020A937 /* ant.png */,
+				34FF3AC8279D84E90020A937 /* appmonsterlogo.png */,
+				34FF3ABE279D84E90020A937 /* chappeeacresicon.png */,
+				34FF3A96279D84470020A937 /* Assets.xcassets */,
+				34FF3A9B279D84470020A937 /* main.m */,
+				34BF98AF279F26EC0006E5DC /* AntMediaViewerIcon1280x768.xcf */,
+				34BF98B6279F38F70006E5DC /* topshelf.png */,
+				34BF98B7279F38F70006E5DC /* topshelfwide.png */,
+				34BF98BA279F391C0006E5DC /* Layer1-800x480.png */,
+				34BF98BB279F391C0006E5DC /* Layer2-800x480.png */,
+				34BF98AD279F26EC0006E5DC /* Layer1-400x240.png */,
+				34BF98B0279F26EC0006E5DC /* Layer1-1280x768.png */,
+				34BF98AE279F26EC0006E5DC /* Layer2-400x240.png */,
+				34BF98AC279F26EC0006E5DC /* Layer2-1280x768.png */,
+			);
+			path = "Ant Media Viewer";
+			sourceTree = "<group>";
+		};
+		34FF3AA4279D84470020A937 /* Ant Media ViewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				34FF3AA5279D84470020A937 /* Ant_Media_ViewerTests.m */,
+			);
+			path = "Ant Media ViewerTests";
+			sourceTree = "<group>";
+		};
+		34FF3AAE279D84470020A937 /* Ant Media ViewerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				34FF3AAF279D84470020A937 /* Ant_Media_ViewerUITests.m */,
+				34FF3AB1279D84470020A937 /* Ant_Media_ViewerUITestsLaunchTests.m */,
+			);
+			path = "Ant Media ViewerUITests";
+			sourceTree = "<group>";
+		};
+		34FF3AD3279D854F0020A937 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34FF3AD4279D854F0020A937 /* AVFoundation.framework */,
+				34FF3AD5279D854F0020A937 /* AVKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34FF3A89279D84460020A937 /* Ant Media Viewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34FF3AB5279D84470020A937 /* Build configuration list for PBXNativeTarget "Ant Media Viewer" */;
+			buildPhases = (
+				34FF3A86279D84460020A937 /* Sources */,
+				34FF3A87279D84460020A937 /* Frameworks */,
+				34FF3A88279D84460020A937 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ant Media Viewer";
+			productName = "Ant Media Viewer";
+			productReference = 34FF3A8A279D84460020A937 /* Ant Media Viewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34FF3AA0279D84470020A937 /* Ant Media ViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34FF3AB8279D84470020A937 /* Build configuration list for PBXNativeTarget "Ant Media ViewerTests" */;
+			buildPhases = (
+				34FF3A9D279D84470020A937 /* Sources */,
+				34FF3A9E279D84470020A937 /* Frameworks */,
+				34FF3A9F279D84470020A937 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34FF3AA3279D84470020A937 /* PBXTargetDependency */,
+			);
+			name = "Ant Media ViewerTests";
+			productName = "Ant Media ViewerTests";
+			productReference = 34FF3AA1279D84470020A937 /* Ant Media ViewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		34FF3AAA279D84470020A937 /* Ant Media ViewerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34FF3ABB279D84470020A937 /* Build configuration list for PBXNativeTarget "Ant Media ViewerUITests" */;
+			buildPhases = (
+				34FF3AA7279D84470020A937 /* Sources */,
+				34FF3AA8279D84470020A937 /* Frameworks */,
+				34FF3AA9279D84470020A937 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34FF3AAD279D84470020A937 /* PBXTargetDependency */,
+			);
+			name = "Ant Media ViewerUITests";
+			productName = "Ant Media ViewerUITests";
+			productReference = 34FF3AAB279D84470020A937 /* Ant Media ViewerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34FF3A82279D84460020A937 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					34FF3A89279D84460020A937 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					34FF3AA0279D84470020A937 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 34FF3A89279D84460020A937;
+					};
+					34FF3AAA279D84470020A937 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 34FF3A89279D84460020A937;
+					};
+				};
+			};
+			buildConfigurationList = 34FF3A85279D84460020A937 /* Build configuration list for PBXProject "Ant Media Viewer" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34FF3A81279D84460020A937;
+			productRefGroup = 34FF3A8B279D84460020A937 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34FF3A89279D84460020A937 /* Ant Media Viewer */,
+				34FF3AA0279D84470020A937 /* Ant Media ViewerTests */,
+				34FF3AAA279D84470020A937 /* Ant Media ViewerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34FF3A88279D84460020A937 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34FF3ACE279D84E90020A937 /* Main.storyboard in Resources */,
+				34BF98B8279F38F70006E5DC /* topshelf.png in Resources */,
+				34BF98B2279F26EC0006E5DC /* Layer1-400x240.png in Resources */,
+				34FF3AD0279D84E90020A937 /* LaunchScreen.storyboard in Resources */,
+				34BF98B3279F26EC0006E5DC /* Layer2-400x240.png in Resources */,
+				34BF98B9279F38F70006E5DC /* topshelfwide.png in Resources */,
+				34BF98B4279F26EC0006E5DC /* AntMediaViewerIcon1280x768.xcf in Resources */,
+				34BF98B5279F26EC0006E5DC /* Layer1-1280x768.png in Resources */,
+				34BF98BC279F391C0006E5DC /* Layer1-800x480.png in Resources */,
+				34BF98B1279F26EC0006E5DC /* Layer2-1280x768.png in Resources */,
+				34FF3ACD279D84E90020A937 /* settings.png in Resources */,
+				34FF3ACA279D84E90020A937 /* chappeeacresicon.png in Resources */,
+				34FF3ACC279D84E90020A937 /* ant.png in Resources */,
+				34BF98BD279F391C0006E5DC /* Layer2-800x480.png in Resources */,
+				34FF3AD1279D84E90020A937 /* appmonsterlogo.png in Resources */,
+				34FF3A97279D84470020A937 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34FF3A9F279D84470020A937 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34FF3AA9279D84470020A937 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34FF3A86279D84460020A937 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34FF3A9C279D84470020A937 /* main.m in Sources */,
+				34FF3ACB279D84E90020A937 /* ViewController.m in Sources */,
+				34FF3A8F279D84460020A937 /* AppDelegate.m in Sources */,
+				34FF3ACF279D84E90020A937 /* StreamCell.m in Sources */,
+				34FF3AD2279D84E90020A937 /* SettingsVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34FF3A9D279D84470020A937 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34FF3AA6279D84470020A937 /* Ant_Media_ViewerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34FF3AA7279D84470020A937 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34FF3AB0279D84470020A937 /* Ant_Media_ViewerUITests.m in Sources */,
+				34FF3AB2279D84470020A937 /* Ant_Media_ViewerUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34FF3AA3279D84470020A937 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34FF3A89279D84460020A937 /* Ant Media Viewer */;
+			targetProxy = 34FF3AA2279D84470020A937 /* PBXContainerItemProxy */;
+		};
+		34FF3AAD279D84470020A937 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34FF3A89279D84460020A937 /* Ant Media Viewer */;
+			targetProxy = 34FF3AAC279D84470020A937 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		34FF3AB3279D84470020A937 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				TVOS_DEPLOYMENT_TARGET = 15.2;
+			};
+			name = Debug;
+		};
+		34FF3AB4279D84470020A937 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				TVOS_DEPLOYMENT_TARGET = 15.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34FF3AB6279D84470020A937 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M3L88VG8AD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Ant-Media-Viewer-Info.plist";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Appmonster.Ant-Media-Viewer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+			};
+			name = Debug;
+		};
+		34FF3AB7279D84470020A937 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M3L88VG8AD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Ant-Media-Viewer-Info.plist";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Appmonster.Ant-Media-Viewer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+			};
+			name = Release;
+		};
+		34FF3AB9279D84470020A937 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M3L88VG8AD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Appmonster.Ant-Media-ViewerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ant Media Viewer.app/Ant Media Viewer";
+				TVOS_DEPLOYMENT_TARGET = 15.2;
+			};
+			name = Debug;
+		};
+		34FF3ABA279D84470020A937 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M3L88VG8AD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Appmonster.Ant-Media-ViewerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ant Media Viewer.app/Ant Media Viewer";
+				TVOS_DEPLOYMENT_TARGET = 15.2;
+			};
+			name = Release;
+		};
+		34FF3ABC279D84470020A937 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M3L88VG8AD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Appmonster.Ant-Media-ViewerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = "Ant Media Viewer";
+			};
+			name = Debug;
+		};
+		34FF3ABD279D84470020A937 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M3L88VG8AD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Appmonster.Ant-Media-ViewerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = "Ant Media Viewer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34FF3A85279D84460020A937 /* Build configuration list for PBXProject "Ant Media Viewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34FF3AB3279D84470020A937 /* Debug */,
+				34FF3AB4279D84470020A937 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34FF3AB5279D84470020A937 /* Build configuration list for PBXNativeTarget "Ant Media Viewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34FF3AB6279D84470020A937 /* Debug */,
+				34FF3AB7279D84470020A937 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34FF3AB8279D84470020A937 /* Build configuration list for PBXNativeTarget "Ant Media ViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34FF3AB9279D84470020A937 /* Debug */,
+				34FF3ABA279D84470020A937 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34FF3ABB279D84470020A937 /* Build configuration list for PBXNativeTarget "Ant Media ViewerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34FF3ABC279D84470020A937 /* Debug */,
+				34FF3ABD279D84470020A937 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34FF3A82279D84460020A937 /* Project object */;
+}
