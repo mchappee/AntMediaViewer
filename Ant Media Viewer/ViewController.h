@@ -19,10 +19,17 @@
 @property (weak, nonatomic) IBOutlet UISegmentedControl *AppSegments;
 @property (weak, nonatomic) IBOutlet UIButton *Settings;
 @property (weak, nonatomic) IBOutlet UILabel *NoServer;
+@property (weak, nonatomic) IBOutlet UIButton *RetrieveSnap;
+@property (weak, nonatomic) IBOutlet UIImageView *AddServerImg;
+@property (weak, nonatomic) IBOutlet UILabel *URLLabel;
+@property (weak, nonatomic) IBOutlet UIImageView *GenericAntBubble;
+@property (weak, nonatomic) IBOutlet UIImageView *ScreenShotImg;
 
 
 - (IBAction)AppSegChange:(id)sender;
 - (IBAction)SettingsDown:(id)sender;
+- (IBAction)WonderwallDown:(id)sender;
+- (IBAction)RetrieveSnapDown:(id)sender;
 
 @property NSArray *streams;
 @property NSArray *vod;
@@ -32,6 +39,9 @@
 @property AVPlayer *avplayer;
 @property AVPlayerViewController *controller;
 @property long nowplaying;
+@property AVPlayerItemVideoOutput *snapshotOutput;
+@property UIImage *snapshot;
+@property UILabel *snaplabel;
 
 @end
 
