@@ -23,9 +23,9 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    NSLog([self.streams description]);
     self.wallstreams = [[NSMutableArray alloc] init];
     self.streamarray = [[NSMutableArray alloc] init];
+    self.avplayers = [[NSMutableArray alloc] init];
     
     for (id stream in self.streams) {
         NSString *status = [stream objectForKey:@"status"];
@@ -66,6 +66,8 @@
         //[self createVideo:streamurl:frame:tag];
         AVPlayerViewController *avc = [[AVPlayerViewController alloc] init];
         AVPlayer *avplayer = [AVPlayer playerWithURL:[NSURL URLWithString:streamurl]];
+        [avplayer setMuted:true];
+        [self.avplayers addObject:avplayer];
         
         UITapGestureRecognizer *singleTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(avctapped:)];
         singleTap.numberOfTapsRequired = 1;
@@ -90,6 +92,25 @@
             ypos = 0;
             a = 0;
         }
+    }
+    
+    self.timer = [NSTimer scheduledTimerWithTimeInterval:3 target:self selector:@selector(checkPlayers) userInfo:nil repeats:true];
+}
+
+- (void) checkPlayers {
+    for (id item in self.avplayers) {
+        AVPlayer *avplayer = (AVPlayer *)item;
+        NSLog(@"stream status: %ld", avplayer.timeControlStatus);
+        if (avplayer.timeControlStatus != 2)
+            [avplayer play];
+    }
+}
+
+- (void)viewWillDisappear:(BOOL)animated {
+    [self.timer invalidate];
+    for (id item in self.avplayers) {
+        AVPlayer *avplayer = (AVPlayer *)item;
+        [avplayer pause];
     }
 }
 
@@ -132,10 +153,7 @@
     [avc.view setUserInteractionEnabled:YES];
     
     avc.player = avplayer;
-    //avc.view.frame = frame;
     [self presentViewController:avc animated:YES completion:nil];
-    //[self.view addSubview:avc.view];
-    //[self addChildViewController:avc];
 }
 
 - (void)didUpdateFocusInContext:(UIFocusUpdateContext *)context

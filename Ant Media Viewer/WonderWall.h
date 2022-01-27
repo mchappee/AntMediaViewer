@@ -14,6 +14,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property UIView *selectedview;
 @property NSMutableArray *streamarray;
 @property NSMutableArray *wallstreams;
+@property NSMutableArray *avplayers;
+@property NSTimer *timer;
 
 @end
 
